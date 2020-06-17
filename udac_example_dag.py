@@ -12,8 +12,8 @@ from airflow.operators import (StageToRedshiftOperator,
                             )
 
 
-#AWS_KEY = os.environ.get('AKIAUW7WZ73CDZ2DR6VR')
-#AWS_SECRET = os.environ.get('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')
+#AWS_KEY = os.environ.get('')
+#AWS_SECRET = os.environ.get('')
 
 
 from helpers import SqlQueries
